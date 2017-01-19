@@ -1,0 +1,264 @@
+cd
+html, body {
+  background-image: url("../images/sayagata-400px.png");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+
+/**
+  * This h1 style has become superfluous
+  * as the header/logo is now a png.
+  * I left in the style should I have to go back
+  * to the assignment spec.
+  */
+h1 {
+  font-size: 28px;
+  display: inline-block;
+  color: white;
+  background-color: #4aaaa5;
+  padding: 15px;
+  margin: 5px 0 0 0;
+  float: left;
+}
+
+h3 {
+  font-size: 20px;
+  color: #4aaaa5;
+  padding: 16px;
+}
+
+#main h3 {
+  text-align: left;
+  padding-left: 0px;
+}
+
+a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  text-align: left;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+hr {
+  margin: 0 0 15px 0;
+}
+
+.content {
+  margin: 0 10px;
+  width: 960px;
+  text-align: center;
+  display: inline-block;
+}
+
+/**
+  * This container was created soley for the
+  * sticky footer, which is why there is `em`
+  * and `!important` usage - for IE 6
+  */
+.main-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+/**
+  * Email Form styles, textarea and buttons
+  */
+#messageform {
+  width: 630px;
+  text-align: left;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+textarea, input {
+  width: 615px;
+  margin-top: 7px;
+  padding: 1px;
+}
+
+button {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #4aaaa5;
+  float:left;
+  padding: 15px 25px;
+  margin-top: 15px;
+  border-width: 0px;
+}
+
+button:hover {
+  background-color: #3a9a8f;
+}
+
+/**
+  *Top Bar styles - includes logo and navigation links
+  */
+#top-logo {
+  width: 175px;
+  float: left;
+}
+
+#top-bar {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  border-style: outset;
+  border-width: 0px 0px 3px 0px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  min-width:960px;
+  width: 100%;
+}
+
+#nav-links {
+  float: right;
+  margin-top: 50px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#portfolio {
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 0 1px 0 1px;
+  padding: 0 5px 0 5px;
+}
+
+
+/**
+  * Main Content Section styles
+  */
+
+#main {
+  float: left;
+  padding: 0 20px 20px 20px;
+  width: 610px;
+}
+
+#sidebar {
+  padding: 0 10px 0 10px;
+  width: 250px;
+  float: right;
+}
+
+#main, #sidebar {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 15px;
+}
+
+#sidebar img {
+  height: 50px;
+}
+
+#sidebar img:hover {
+  opacity: 0.5;
+}
+
+/**
+  * footer styles - sticky footer works,
+  *but all the styles for the sticky footer
+  * are distributed in the styles file
+  */
+
+#footer {
+  margin-top: 16px;
+  border-style: outset;
+  border-width: 7px 0px 0px 0px;
+  border-color: #4aaaa5;
+  background-color: #666666;
+  min-width: 960px;
+  width: 100%;
+}
+
+#footer p {
+  text-align: center;
+  color: #D3D3D3;
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+#footer, .push {
+  height: 4em;
+}
+
+
+img#profile {
+  height: 150px;
+  margin-right: 15px;
+  float: left;
+}
+
+/**
+  * StackExchange icon didn't have the margin
+  * and it wasn't the right size.
+  */
+
+img#stackfix{
+  height: 44.5px;
+  margin: 0 0 3px 2px;
+}
+
+/**
+  * This is the section for the portfolio images,
+  * with text overlay
+  */
+
+.module {
+  height: 250px;
+  width: 45%;
+  float: left;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
+
+.module:hover {
+  opacity: 0.5;
+}
+
+.module h4 {
+  margin-top: 190px;
+  color: #fff;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 18px;
+  padding: 12px 0 12px 0;
+}
+
+#rand2 {
+  background-image: url("../images/randompic2.jpg");
+}
+#rand3 {
+  background-image: url("../images/randompic3.jpg");
+}
+#rand4 {
+  background-image: url("../images/randompic4.jpg");
+}
+#rand5 {
+  background-image: url("../images/randompic5.jpg");
+}
+#rand6 {
+  background-image: url("../images/randompic6.jpg");
+}
