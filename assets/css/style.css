@@ -301,6 +301,11 @@ img#stackfix{
       textarea, input {
         width: 500px;
       }
+
+      #footer {
+        min-width: 750px;
+        width: 100%;
+      }
 }
 
 @media only screen and (max-width: 768px){
@@ -337,6 +342,12 @@ img#stackfix{
   textarea, input {
     width: 578px;
   }
+
+  #footer {
+    min-width: 630px;
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 640px){
@@ -397,6 +408,11 @@ img#stackfix{
 
   textarea, input {
     width: 408px;
+  }
+
+  #footer {
+    min-width: 460px;
+    width: 100%;
   }
 }
 
