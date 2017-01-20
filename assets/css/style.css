@@ -1,4 +1,3 @@
-cd
 html, body {
   background-image: url("../images/sayagata-400px.png");
   width: 100%;
@@ -61,7 +60,7 @@ hr {
 }
 
 .content {
-  margin: 0 10px;
+  margin: 0;
   width: 960px;
   text-align: center;
   display: inline-block;
@@ -76,7 +75,7 @@ hr {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -4em;
+  margin: 0 0 -4em;
 }
 
 /**
@@ -270,19 +269,142 @@ img#stackfix{
   */
 
 @media only screen and (max-width: 980px){
-      placeholder {
+      header#top-bar {
+        min-width: 750px;
+        width: 100%;
+      }
 
+      .content {
+        width: 750px;
+      }
+
+      #main {
+        width: 510px;
+      }
+
+      #sidebar {
+        width: 160px;
+      }
+
+      #sidebar h3 {
+        font-size: 15px;
+        padding: 20px 10px;
+        height: 12px;
+      }
+
+      img#profile {
+        height: 300px;
+        margin: 0 15px 15px 0;
+        float: none;
+      }
+
+      textarea, input {
+        width: 500px;
       }
 }
 
 @media only screen and (max-width: 768px){
-      placeholder {
+  header#top-bar {
+    min-width: 630px;
+    width: 100%;
+  }
+  .content {
+    width: 630px;
+  }
 
-      }
+  #main {
+    width: 588px;
+  }
+
+  #sidebar {
+    clear: both;
+    margin-top: 20px;
+    width: 610px;
+  }
+
+  #sidebar h3 {
+    font-size: 15px;
+    padding: 20px 10px;
+    height: 12px;
+  }
+
+  img#profile {
+    height: 150px;
+    margin: 0 15px 0 0;
+    float: left;
+  }
+
+  textarea, input {
+    width: 578px;
+  }
 }
 
 @media only screen and (max-width: 640px){
+  header#top-bar {
+    min-width: 460px;
+    width: 100%;
+  }
+  .content {
+    width: 460px;
+  }
+
+  a {
+    color: white;
+  }
+
+  #portfolio {
+    border-color: white;
+  }
+
+  #top-logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  #nav-links {
+    display: block;
+    float: none;
+    margin: 0;
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+  }
+
+  #main {
+    width: 418px;
+  }
+
+  #sidebar {
+    clear: both;
+    margin-top: 20px;
+    width: 440px;
+  }
+
+  #sidebar h3 {
+    font-size: 15px;
+    padding: 20px 10px;
+    height: 12px;
+  }
+
+  img#profile {
+    height: 150px;
+    margin: 0 15px 0 0;
+    float: left;
+  }
+
+  textarea, input {
+    width: 408px;
+  }
+}
+
+/**
+  * This is for portrait phones
+  */
+@media only screen and (max-width: 490px){
       placeholder {
-        
+
       }
 }
