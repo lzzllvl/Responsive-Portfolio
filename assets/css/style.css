@@ -269,4 +269,20 @@ img#stackfix{
   * feat. media all media queries
   */
 
-  
+@media only screen and (max-width: 980px){
+      placeholder {
+
+      }
+}
+
+@media only screen and (max-width: 768px){
+      placeholder {
+
+      }
+}
+
+@media only screen and (max-width: 640px){
+      placeholder {
+        
+      }
+}
