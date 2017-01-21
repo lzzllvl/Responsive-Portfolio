@@ -305,6 +305,13 @@ img#stackfix{
         min-width: 750px;
         width: 100%;
       }
+
+      .module {
+        margin: 10px 25px;
+        width: 90%;
+        height: 250px;
+        clear: both;
+      }
 }
 
 @media only screen and (max-width: 768px){
@@ -347,7 +354,15 @@ img#stackfix{
     width: 100%;
   }
 
+  .module {
+    margin: 0 0 15px 20px;
+    width: 45%;
+    height: 250px;
+    clear: none;
+    float: left;
+  }
 }
+
 
 @media only screen and (max-width: 640px){
   header#top-bar {
@@ -412,6 +427,13 @@ img#stackfix{
   #footer {
     min-width: 460px;
     width: 100%;
+  }
+
+  .module {
+    margin: 10px 25px;
+    width: 90%;
+    height: 250px;
+    clear: both;
   }
 }
 
