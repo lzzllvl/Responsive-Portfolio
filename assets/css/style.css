@@ -264,8 +264,16 @@ img#stackfix{
 
 /**
   * These are the styles for responsive website.
-  * feat. media all media queries
+  * feat. all media queries
   */
+
+
+  /**
+    * The content widths are set just below
+    * the width of the next-lower media
+    * query, this is so that the html will respond
+    * before the viewport cuts off any content...
+    */
 
 @media only screen and (max-width: 980px){
       header#top-bar {
@@ -313,6 +321,10 @@ img#stackfix{
         clear: both;
       }
 }
+
+/**
+  * This is for tablets
+  */
 
 @media only screen and (max-width: 768px){
   header#top-bar {
@@ -362,6 +374,10 @@ img#stackfix{
     float: left;
   }
 }
+
+/**
+  * This is for mobile devices
+  */
 
 
 @media only screen and (max-width: 640px){
