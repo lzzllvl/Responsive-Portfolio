@@ -134,13 +134,12 @@ button:hover {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#portfolio {
+#nav-links a:nth-child(2) {
   border-style: solid;
   border-color: #cccccc;
   border-width: 0 1px 0 1px;
   padding: 0 5px 0 5px;
 }
-
 
 /**
   * Main Content Section styles
@@ -393,10 +392,6 @@ img#stackfix{
     color: white;
   }
 
-  #portfolio {
-    border-color: white;
-  }
-
   #top-logo {
     display: block;
     float: none;
@@ -412,6 +407,10 @@ img#stackfix{
     background-color: #4aaaa5;
     color: white;
     width: 100%;
+  }
+
+  #nav-links a:nth-child(2) {
+    border-color: #fff;
   }
 
   #main {
