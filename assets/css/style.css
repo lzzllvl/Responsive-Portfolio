@@ -388,7 +388,7 @@ img#stackfix{
     width: 460px;
   }
 
-  header#top-bar.content {
+  #top-bar .content {
     width: 100%;
   }
 
