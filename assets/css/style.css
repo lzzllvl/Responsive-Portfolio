@@ -388,6 +388,10 @@ img#stackfix{
     width: 460px;
   }
 
+  header#top-bar.content {
+    width: 100%;
+  }
+
   a {
     color: white;
   }
@@ -450,13 +454,4 @@ img#stackfix{
     height: 250px;
     clear: both;
   }
-}
-
-/**
-  * This is for portrait phones
-  */
-@media only screen and (max-width: 490px){
-      placeholder {
-
-      }
 }
